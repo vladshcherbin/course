@@ -1,0 +1,26 @@
+body {
+  background-color: #353535;
+  color: #f1f1f1;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+nav li {
+  display: inline;
+  margin-right: 16px;
+  border-bottom: 1px solid #ff0000;
+}
+
+.articles-list {
+  display: flex;
+  gap: 24px;
+}
+
+.articles-list li {
+  width: 300px;
+  padding: 16px;
+  background-color: #555555;
+}
+
+.articles-list h2 {
+  margin-bottom: 16px;
+}
