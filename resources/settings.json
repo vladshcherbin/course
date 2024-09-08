@@ -1,0 +1,41 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontSize": 14,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": "off",
+  "editor.padding.bottom": 6,
+  "editor.padding.top": 6,
+  "editor.roundedSelection": false,
+  "editor.rulers": [
+    100
+  ],
+  "editor.selectionHighlight": false,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.decorations.badges": false,
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.opacity": 0.4,
+  "material-icon-theme.saturation": 0,
+  "telemetry.telemetryLevel": "off",
+  "update.showReleaseNotes": false,
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Atomize",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none"
+}
