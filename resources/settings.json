@@ -1,5 +1,10 @@
 {
   "breadcrumbs.enabled": false,
+  "css.format.enable": false,
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit"
+  },
   "editor.find.addExtraSpaceOnTop": false,
   "editor.fontSize": 14,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -27,6 +32,9 @@
   "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.opacity": 0.4,
   "material-icon-theme.saturation": 0,
+  "stylelint.validate": [
+    "css"
+  ],
   "telemetry.telemetryLevel": "off",
   "update.showReleaseNotes": false,
   "window.commandCenter": false,
