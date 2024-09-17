@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 32px;
+  column-gap: 48px;
+  background-color: #111110;
+  color: #EEEEEC;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+form,
+aside {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 420px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #191918;
+  row-gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 6px;
+}
+
+label {
+  color: #7C7B74;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input,
+select,
+textarea {
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background-color: #2A2A28
+}
+
+:is(input, textarea)::placeholder {
+  color: #7C7B74;
+}
+
+select {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+select:focus,
+textarea:focus {
+  border-color: #435DB1;
+}
+
+button {
+  padding: 12px 16px;
+  border-radius: 6px;
+  background-color: #B5B3AD;
+  color: #111110;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #EEEEEC;
+}
+
+/* Links */
+
+aside a {
+  color: #435DB1;
+}
+
+aside a:visited {
+  color: #92549C;
+}
+
+.selectors-list li:first-child,
+.selectors-list li:last-child {
+  color: #29A383;
+}
+
+.selectors-list li:nth-child(4) {
+  color: #7C5F46;
+}

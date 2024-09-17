@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form method="get" action="">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Please enter your phone number" autocomplete="tel" required>
+      </div>
+      <div class="field">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="">Please select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="bio">Your bio (optional)</label>
+        <textarea id="bio" name="bio" rows="3"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <aside>
+      <section>
+        <h2>Links list (try vising)</h2>
+        <ul>
+          <li><a href="https://google.com" target="_blank">Google</a></li>
+          <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+      </section>
+      <section class="selectors-list">
+        <h2>List with selectors</h2>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+          <li>item 6</li>
+          <li>item 7</li>
+          <li>item 8</li>
+          <li>item 9</li>
+        </ul>
+      </section>
+    </aside>
+  </body>
+</html>
