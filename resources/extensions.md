@@ -1,3 +1,4 @@
 - Atomize `theme`
-- Live Server (Five Server)
+- Live Server (Five Server) `live reload`
 - Material Icon Theme `icons`
+- Stylelint `css linter`
