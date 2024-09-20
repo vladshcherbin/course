@@ -1,0 +1,8 @@
+{
+  "name": "lesson-7",
+  "devDependencies": {
+    "@shcherbin/stylelint-config": "^0.1.1",
+    "stylelint": "^16.9.0"
+  },
+  "private": true
+}
