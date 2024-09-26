@@ -18,3 +18,4 @@
    - [Псевдоэлементы](https://doka.guide/css/pseudoelements) — добавление стилизованных элементов без использования HTML
 
 2. Доделать макет, который делали на уроке, используя пройденные темы - [макет](https://www.figma.com/design/romcpyfXCZOlrowkkJ1TWL/Untitled?node-id=0-1&t=ziRDWtdZybI5Vkm3-1)
+  - иконки [Phosphor Icons](https://phosphoricons.com)
