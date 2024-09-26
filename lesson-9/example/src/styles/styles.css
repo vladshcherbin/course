@@ -77,12 +77,18 @@ summary {
   grid-auto-flow: column;
   justify-content: space-between;
   font-weight: 700;
+  cursor: pointer;
 }
 
 summary svg {
   width: 24px;
   height: 24px;
   fill: currentcolor;
+  transition: transform 0.3s;
+}
+
+details[open] summary svg {
+  transform: rotate(180deg);
 }
 
 details p {
