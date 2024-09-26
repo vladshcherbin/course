@@ -1,0 +1,90 @@
+:root {
+  --color-bronze-9: #a18072;
+  --color-bronze-11: #d4b3a5;
+  --color-sand-2: #191918;
+  --color-sand-12: #eeeeec;
+}
+
+body {
+  font-family: "Inter Variable", Inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-sand-12);
+  background-color: var(--color-sand-2);
+}
+
+img {
+  display: block;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 320px 480px;
+  column-gap: 64px;
+  place-content: center;
+  align-items: start;
+  min-height: 100svh;
+}
+
+.images {
+  display: grid;
+  row-gap: 32px;
+}
+
+.images ul {
+  display: grid;
+  grid-auto-columns: 120px;
+  grid-auto-flow: column;
+  column-gap: 24px;
+  overflow-x: auto;
+  overscroll-behavior: contain;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  margin: 24px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  padding: 8px 24px;
+  margin-bottom: 48px;
+  font-weight: 500;
+  color: var(--color-sand-2);
+  cursor: pointer;
+  background-color: var(--color-bronze-11);
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-bronze-9);
+  transform: scale(1.05);
+}
+
+details:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+summary {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+summary svg {
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+details p {
+  padding-top: 24px;
+}
