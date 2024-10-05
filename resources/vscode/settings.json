@@ -3,6 +3,7 @@
   "css.format.enable": false,
   "css.validate": false,
   "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
   "editor.find.addExtraSpaceOnTop": false,
@@ -23,6 +24,10 @@
   "editor.unicodeHighlight.allowedLocales": {
     "ru": true
   },
+  "eslint.ignoreUntitled": true,
+  "eslint.validate": [
+    "javascript"
+  ],
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
