@@ -43,6 +43,7 @@
 5. Функции высшего порядка
 6. Замыкания
 7. Рекурсия
+8. [Чистые функции](https://doka.guide/tools/fp/#chistye-funkcii-i-pobochnye-effekty)
 
 ## Методы массивов
 
