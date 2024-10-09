@@ -19,7 +19,7 @@ git init
 4. Инициализировать проект
 
 ```bash
-npm init
+pnpm init
 ```
 
 ## 5. Stylelint
@@ -29,7 +29,7 @@ npm init
 1. Установить `stylelint` и конфигурацию `@shcherbin/stylelint-config`
 
 ```bash
-npm install stylelint @shcherbin/stylelint-config -D
+pnpm add stylelint @shcherbin/stylelint-config -D
 ```
 
 2. Создать файл `stylelint.config.mjs` в корне проекта и добавить в него следующий код:
@@ -49,7 +49,7 @@ export default {
 1. Установить `ESLint` и конфигурацию `@shcherbin/eslint-config-node`
 
 ```bash
-npm install eslint@^8 @shcherbin/eslint-config-node -D
+pnpm add eslint@^8 @shcherbin/eslint-config-node -D
 ```
 
 2. Создать файл `.eslintrc.cjs` в корне проекта и добавить в него следующий код:
