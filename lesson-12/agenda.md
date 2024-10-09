@@ -39,10 +39,10 @@
 1. [Функции](https://doka.guide/js/function)
 2. Параметры функции, параметры по умолчанию
 3. Анонимные функции
-4. Стрелочные функции
-5. Функции высшего порядка
-6. Замыкания
-7. Рекурсия
+4. [Стрелочные функции](https://doka.guide/js/function/#strelochnye-funkcii)
+5. [Функции высшего порядка](https://doka.guide/tools/fp/#funkcii-vysshih-poryadkov)
+6. [Замыкания](https://doka.guide/js/closures/#funkcii-vnutri-funkciy-i-zamykaniya)
+7. [Рекурсия](https://doka.guide/tools/fp/#rekursiya)
 8. [Чистые функции](https://doka.guide/tools/fp/#chistye-funkcii-i-pobochnye-effekty)
 
 ## Методы массивов
