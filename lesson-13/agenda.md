@@ -11,10 +11,10 @@
 
 ## Методы объектов
 
-1. Object.keys()
-2. Object.values()
-3. Object.entries()
-4. Object.fromEntries()
+1. [Object.keys()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+2. [Object.values()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+3. [Object.entries()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+4. [Object.fromEntries()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
 
 ## Спред-синтаксис
 
