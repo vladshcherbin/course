@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lesson 14</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1 id="header">News</h1>
+    <ul class="news">
+      <li>
+        <article class="news-article">
+          <h2>Title 1</h2>
+          <p>message</p>
+        </article>
+      </li>
+      <li>
+        <article class="news-article">
+          <h2>Title 2</h2>
+          <p>message</p>
+        </article>
+      </li>
+    </ul>
+    <aside>
+      <ul>
+        <li><p class="message">message</p></li>
+        <li><p class="message">message</p></li>
+        <li><p class="message">message</p></li>
+        <li><p class="message">message</p></li>
+      </ul>
+      <ul class="actions">
+        <li>
+          <button type="button" onClick="makeThirdMessageFancy()">Make message #3 fancy</button>
+        </li>
+        <li>
+          <button type="button" onClick="toggleThirdMessageFancy()">Toggle message #3 fancy</button>
+        </li>
+        <li>
+          <button type="button" onClick="updateFourthMessageHtml()">Update message #4 html</button>
+        </li>
+        <li>
+          <button type="button" onClick="addNewMessage('new message')">Add new message</button>
+        </li>
+      </ul>
+    </aside>
+  </body>
+</html>
