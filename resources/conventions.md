@@ -1,4 +1,4 @@
-# Соглашения по именованию в HTML, CSS и JavaScript
+# Соглашения по именованию в проекте
 
 ## Форматы
 
@@ -19,6 +19,12 @@
 Каждое слово начинается с заглавной буквы
 
 Пример: `UserProfile`, `DataManager`
+
+## Файлы и папки
+
+- Формат: kebab-case
+- Файлы: `index.html`, `styles.css`, `create-user.js`
+- Папки: `courses`, `lesson-1`
 
 ## HTML
 
@@ -52,6 +58,16 @@
 - **Классы**:
   - Формат: PascalCase
   - Пример: `UserProfile`, `DataManager`
+
+## Git
+
+- **Ветки**:
+  - Формат: kebab-case
+  - Пример: `master`, `lesson-1`, `feature/add-user-profile-page`
+
+- **Коммиты**:
+  - Формат: Императивное наклонение для заголовка, как будто даёте команду (Add, Update, Fix, Remove)
+  - Пример: `Add user profile page`, `Update styles for main header`
 
 ## Общие рекомендации
 
