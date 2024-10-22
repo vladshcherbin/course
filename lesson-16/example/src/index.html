@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Урок 16</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="app.js" defer></script>
+  </head>
+  <body>
+    <section class="create-new-list">
+      <button type="button">создать новый список</button>
+    </section>
+    <section class="create-and-update-new-list">
+      <button type="button">создать и обновить класс у списка</button>
+    </section>
+    <section class="log-message-timeout">
+      <p>Кнопка ниже выводит в консоль сообщение "привет" и перестаёт работать через 5 сек после загрузки страницы</p>
+      <button type="button">вывести сообщение в консоль</button>
+    </section>
+    <section class="fetch-user">
+      <button type="button">получить и вывести пользователя</button>
+    </section>
+    <section class="stop-propagation">
+      <div class="top">
+        <div class="middle">
+          <div class="bottom">
+            <button type="button">всплытие событий</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="input-events">
+      <p>Лог событий поля можно увидеть в консоли</p>
+      <input type="text">
+    </section>
+    <section class="prevent-default">
+      <p>Форма не работает (событие отключено)</p>
+      <form method="get" action="">
+        <input type="text" value="змея">
+        <button type="submit">отправить змею</button>
+      </form>
+    </section>
+    <section class="fetch-user-by-id">
+      <input type="text" value="1">
+      <button type="button">получить и вывести пользователя по id из поля</button>
+    </section>
+    <section class="useful-functions">
+      <p>Полезные функции</p>
+      <button type="button">alert()</button>
+      <button type="button">confirm()</button>
+      <button type="button">prompt()</button>
+    </section>
+    <section class="useful-properties">
+      <p>Полезные свойства элементов (результат в консоли)</p>
+      <p>элемент до списка</p>
+      <ul>
+        <li>машина</li>
+        <li>самолёт</li>
+        <li>корабль</li>
+      </ul>
+      <p>элемент после списка</p>
+    </section>
+  </body>
+</html>
