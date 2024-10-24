@@ -46,29 +46,33 @@ export default {
 
 Рекомендуется использовать `ESLint` для проверки JavaScript-кода в проекте
 
-1. Установить `ESLint` и конфигурацию `@shcherbin/eslint-config-node`
+1. Установить `ESLint` и конфигурацию `@shcherbin/eslint-config`
 
 ```bash
-pnpm add eslint@^8 @shcherbin/eslint-config-node -D
+pnpm add eslint @shcherbin/eslint-config -D
 ```
 
-2. Создать файл `.eslintrc.cjs` в корне проекта и добавить в него следующий код:
+2. Создать файл `eslint.config.js` в корне проекта и добавить в него следующий код:
 
 ```js
-module.exports = {
-  extends: '@shcherbin/eslint-config-node'
-}
+import config from '@shcherbin/eslint-config'
+
+export default config.browser
 ```
 
-Для отключения правил, которые не используются в проекте, можно добавить свойство `rules`. Например, для отключения правила `no-console`:
+Для отключения правил, которые не используются в проекте, можно добавить объект со свойством `rules`. Например, для отключения правила `no-console`:
 
 ```js
-module.exports = {
-  extends: '@shcherbin/eslint-config-node',
-  rules: {
-    'no-console': 'off'
+import config from '@shcherbin/eslint-config'
+
+export default [
+  ...config.browser,
+  {
+    rules: {
+      'no-console': 'off'
+    }
   }
-}
+]
 ```
 
 7. Создать папку `src` в корне проекта
