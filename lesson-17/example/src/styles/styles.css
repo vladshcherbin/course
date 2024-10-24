@@ -1,0 +1,54 @@
+:root {
+  --color-yellow-10: #ffff57;
+  --color-sand-2: #191918;
+  --color-sand-3: #222221;
+  --color-sand-10: #7c7b74;
+  --color-sand-12: #eeeeec;
+}
+
+body {
+  max-width: 480px;
+  padding: 24px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-sand-12);
+  background-color: var(--color-sand-2);
+}
+
+section {
+  background-color: var(--color-sand-3);
+}
+
+button {
+  padding: 8px 16px;
+  color: var(--color-sand-2);
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-sand-12);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-yellow-10);
+}
+
+form {
+  display: grid;
+  row-gap: 12px;
+}
+
+input {
+  padding: 8px 12px;
+  color: var(--color-sand-2);
+  background-color: var(--color-sand-12);
+}
+
+input::placeholder {
+  color: #7c7b74;
+}
+
+input:focus {
+  outline: 2px solid var(--color-yellow-10);
+}
