@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@shcherbin/eslint-config':
-        specifier: ^0.5.0
-        version: 0.5.0(eslint@9.13.0)(typescript@5.6.3)
+        specifier: ^0.6.0
+        version: 0.6.0(eslint@9.13.0)(typescript@5.6.3)
       '@shcherbin/stylelint-config':
         specifier: ^0.2.0
         version: 0.2.0(postcss@8.4.47)(stylelint@16.10.0(typescript@5.6.3))
@@ -123,8 +123,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@shcherbin/eslint-config@0.5.0':
-    resolution: {integrity: sha512-/XMGt/T9gz9kSfZVoad0VwS+4R61hg3IXNSAUMVNnYvoplW1NRP9VjPEemYqA3v88UiuIxPFJ7ilEDi9EX0mbA==}
+  '@shcherbin/eslint-config@0.6.0':
+    resolution: {integrity: sha512-rw03czkTgHJ+/Qpbp1Sex1SZYD5hHg2/KArykOEKkeR4OiJM8YdGw0srBxxYZxPdEra+gLEoGg5TVvVtdXwXOA==}
     peerDependencies:
       eslint: '>=9.13.0'
 
@@ -271,6 +271,9 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
+  confusing-browser-globals@1.0.11:
+    resolution: {integrity: sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==}
+
   cosmiconfig@9.0.0:
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
     engines: {node: '>=14'}
@@ -330,6 +333,12 @@ packages:
   escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+
+  eslint-plugin-sort-destructure-keys@2.0.0:
+    resolution: {integrity: sha512-4w1UQCa3o/YdfWaLr9jY8LfGowwjwjmwClyFLxIsToiyIdZMq3x9Ti44nDn34DtTPP7PWg96tUONKVmATKhYGQ==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      eslint: 5 - 9
 
   eslint-scope@8.1.0:
     resolution: {integrity: sha512-14dSvlhaVhKKsa9Fx1l8A17s7ah7Ef7wCakJ10LYk6+GYmP9yDti2oq2SEwcyndt6knfcZyhyxwY3i9yL78EQw==}
@@ -595,6 +604,9 @@ packages:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+
+  natural-compare-lite@1.4.0:
+    resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
@@ -981,10 +993,12 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@shcherbin/eslint-config@0.5.0(eslint@9.13.0)(typescript@5.6.3)':
+  '@shcherbin/eslint-config@0.6.0(eslint@9.13.0)(typescript@5.6.3)':
     dependencies:
       '@stylistic/eslint-plugin': 2.9.0(eslint@9.13.0)(typescript@5.6.3)
+      confusing-browser-globals: 1.0.11
       eslint: 9.13.0
+      eslint-plugin-sort-destructure-keys: 2.0.0(eslint@9.13.0)
       globals: 15.11.0
     transitivePeerDependencies:
       - supports-color
@@ -1153,6 +1167,8 @@ snapshots:
 
   concat-map@0.0.1: {}
 
+  confusing-browser-globals@1.0.11: {}
+
   cosmiconfig@9.0.0(typescript@5.6.3):
     dependencies:
       env-paths: 2.2.1
@@ -1198,6 +1214,11 @@ snapshots:
   escape-string-regexp@1.0.5: {}
 
   escape-string-regexp@4.0.0: {}
+
+  eslint-plugin-sort-destructure-keys@2.0.0(eslint@9.13.0):
+    dependencies:
+      eslint: 9.13.0
+      natural-compare-lite: 1.4.0
 
   eslint-scope@8.1.0:
     dependencies:
@@ -1450,6 +1471,8 @@ snapshots:
   ms@2.1.3: {}
 
   nanoid@3.3.7: {}
+
+  natural-compare-lite@1.4.0: {}
 
   natural-compare@1.4.0: {}
 

@@ -1,7 +1,7 @@
 import config from '@shcherbin/eslint-config'
 
 export default [
-  ...config.browser,
+  config.browser,
   {
     rules: {
       'no-console': 'off'

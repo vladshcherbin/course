@@ -1,7 +1,7 @@
 {
   "name": "lesson-17",
   "devDependencies": {
-    "@shcherbin/eslint-config": "^0.5.0",
+    "@shcherbin/eslint-config": "^0.6.0",
     "@shcherbin/stylelint-config": "^0.2.0",
     "eslint": "^9.13.0",
     "stylelint": "^16.10.0"
